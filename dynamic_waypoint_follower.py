@@ -19,7 +19,6 @@ class follower:
         self.pub_goal = rospy.Publisher("/move_base_simple/goal", PoseStamped, queue_size = 1)
     def callback_goal(self, message):
         self.goal = message
-        print("Got a new goal")
         self.goals.append(self.goal)
     def callback_odom(self, message):
         self.odom = message
