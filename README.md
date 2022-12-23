@@ -11,7 +11,7 @@ This package is made to compensate for the following problems in ![Follow Waypoi
 
 ### Usage:
 
-1. Turn ON Turtlebot's navigation stack
+1. Start turtlebot's navigation stack
 2. In RVIZ, open the config file mentioned in this repository
 3. `rosrun dynamic_waypoint_follower dynamic_follow_waypoint.py`
 
